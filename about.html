@@ -1,0 +1,167 @@
+<!doctype html>
+<html class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fd7014">
+  <meta name="description" content="storage logistics and supply chain infrastructure farmers and businesses need">
+  <meta name="keywords" content="raindrop, storage, agriculture, delivery">
+  <link href="./output.css" rel="stylesheet">
+  <title>About Raindrop</title>
+</head>
+<!-- #fd7014 -->
+<body style="background-color: #fd7014;" class="w-full">
+    <h1 class="hidden">
+        Raindrop
+    </h1>
+    <!-- header -->
+    <div id="header" class="z-50 h-20 lg:h-30 w-full lg:rounded-b-2xl fixed bg-white shadow-gray-800 shadow-sm flex items-center justify-between">
+        <div id="logo" class="w-30 lg:w-50 h-10 lg:h-20">
+            <a href="#" class="w-full h-full"><img src="./img/raindrop orange logo1.png" alt="raindrop logo" class="h-full w-full mx-6 hover:w-45 duration-500"></a>
+        </div>
+        <div id="nav_div" class="lg:block hidden">
+            <nav id="nav" class="flex items-center justify-around w-full">
+                <a href="./index.html" class="px-4 text-orange-600 visited:text-yellow-300 hover:text-orange-200 duration-500 border-r-2 border-orange-600">Home</a>
+                <a href="./index.html#services" class="px-4 text-orange-600 visited:text-yellow-300 hover:text-orange-200 duration-500 border-r-2 border-orange-600">Our Services</a>
+                <a href="./index.html#why_work_with_us" class="px-4 text-orange-600 visited:text-yellow-300 hover:text-orange-200 duration-500 border-r-2 border-orange-600">Why Choose Us</a>
+                <a href="#contact" class="px-4 text-orange-600 visited:text-yellow-300 hover:text-orange-200 duration-500 border-r-2 border-orange-600">Contact Us</a>
+                <a href="./faq.html" class="px-4 text-orange-600 visited:text-yellow-300 hover:text-orange-200 duration-500">FAQ</a>
+            </nav>
+        </div>
+        <div id="mobile_nav" class="lg:hidden">
+            <!-- mobile nav -->
+            <button id="menu_btn" class="mx-4 my-2">
+                <img src="./svg/burger-menu-svgrepo-com.svg" alt="menu icon" class="w-8 h-8 hover:w-7 hover:h-7 duration-500">
+            </button>
+            <div id="mobile_menu" class="hidden absolute top-20 right-0 w-40 bg-white shadow-lg rounded-b-lg z-10">
+                <nav class="flex flex-col items-start justify-start p-4">
+                    <a href="#about" class="pb-2 text-orange-600">About Us</a>
+                    <a href="#services" class="pb-2 text-orange-600">Our Services</a>
+                    <a href="#why_work_with_us" class="pb-2 text-orange-600">Why Choose Us</a>
+                    <a href="#contact" class="pb-2 text-orange-600">Contact Us</a>
+                    <a href="./faq.html" class="pb-2 text-orange-600">FAQ</a>
+                </nav>
+            </div>
+            <script>
+                const menuBtn = document.getElementById('menu_btn');
+                const mobileMenu = document.getElementById('mobile_menu');
+
+                menuBtn.addEventListener('click', () => {
+                    if (mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.remove('hidden');
+                    } else {
+                        mobileMenu.classList.add('hidden');
+                    }
+                });
+            </script>
+        </div>
+    </div>
+    <!-- about -->
+    <div class="pt-40 pb-10 px-10">
+        <div class="bg-white p-10 rounded-2xl">
+            <h2 class="text-4xl text-gray-800 font-bold">
+                About Raindrop Nigeria
+            </h2>
+            <div>
+                <p class="my-5">
+                    Raindrop Nigeria is an innovative agricultural infrastructure company committed to transforming 
+                    the way food is produced, stored, transported, and delivered across Nigeria and Africa. 
+                    We exist to bridge the critical gaps that have long held back the agricultural sector—inefficient storage, 
+                    unreliable logistics, and broken supply chains. By building strong systems that connect farmers, businesses, 
+                    and consumers, Raindrop is laying the foundation for a more reliable and sustainable agricultural economy.
+                </p>
+                <p class="my-5">
+                    <h3 class="text-2xl text-gray-600 font-bold">Our Mission</h3>
+                    Our mission is simple yet powerful: to create the invisible backbone that supports agriculture. 
+                    We believe farmers should focus on producing food while we handle the systems that get their produce 
+                    from the farm to businesses and families without waste, delay, or loss of quality. By doing this, 
+                    we empower farmers to expand production, help businesses source with confidence, and ensure households 
+                    have consistent access to fresh and affordable food.
+                </p>
+                <p class="my-5">
+                    <h3 class="text-2xl text-gray-600 font-bold">Our Commitment</h3>
+                    We are committed to reshaping agriculture into a future-ready industry. 
+                    By reducing waste, improving logistics, and ensuring consistent supply, 
+                    we are not only solving today's challenges but also creating systems that will serve generations to come. 
+                    For us, agriculture is more than food—it is the backbone of economic growth, community well-being, and national prosperity.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+  <div id="footer" class="bg-gray-800 text-gray-100">
+    <div class="flex flex-wrap justify-between pb-2 pt-10 px-10">
+      <div id="work_hours" class="lg:mb-0 mb-10">
+        <h2 class="font-bold text-lg text-gray-300">
+          Working Hours
+        </h2>
+        <div>
+          <div class="flex items-center justify-between">
+            <p>Monday - Friday</p>
+            <hr class="border-1 w-20">
+            <p>8am - 5pm</p>
+          </div>
+          <div class="flex items-center justify-between">
+            <p>Saturday</p>
+            <hr class="border-1 w-30">
+            <p>10am - 3pm</p>
+          </div>
+          <div class="flex items-center justify-between">
+            <p>Sunday</p>
+            <hr class="border-1 w-40">
+            <p>Closed</p>
+          </div>
+        </div>
+      </div>
+      <div id="foot_service" class="lg:mb-0 mb-10">
+        <h2 class="text-lg font-bold text-gray-300">
+          Services
+        </h2>
+        <ul class="list-disc">
+          <li class="underline"><a href="#storagesolutions" class="hover:font-bold hover:text-lg duration-500">Storage Solutions</a></li>
+          <li class="underline"><a href="#logistics&distribution" class="hover:font-bold hover:text-lg duration-500">Logistics & Distribution</a></li>
+          <li class="underline"><a href="#supplychaininfrastructure" class="hover:font-bold hover:text-lg duration-500">Supply Chain Infrastructure</a></li>
+          <li class="underline"><a href="#qualityassurance" class="hover:font-bold hover:text-lg duration-500">Quality Assurance</a></li>
+          <li class="underline"><a href="#businessenablementplatforms" class="hover:font-bold hover:text-lg duration-500">Business Enablement Platforms</a></li>
+        </ul>
+      </div>
+      <div id="contact" class="lg:mb-0 mb-10">
+        <h2 class="text-lg font-bold text-gray-300">
+          Contact Us
+        </h2>
+        <p>Raindrop Nigeria</p>
+        <p class="font-bold underline hover:text-gray-300 hover:text-xl duration-300">
+          <a href="tel:+2349150697344">+234 915 069 7344</a>
+        </p>
+        <div class="flex">
+          <a href="https://wa.me/message/XKZ3HGOEIPZPO1" target="_blank" rel="noopener noreferrer" class="mx-2 mt-2">
+            <img src="./svg/whatsapp-svgrepo-com.svg" alt="" class="w-6 h-6 hover:w-5 hover:h-5 duration-500">
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100084209483383" target="_blank" rel="noopener noreferrer" class="mx-2 mt-2">
+            <img src="./svg/facebook-svgrepo-com.svg" alt="" class="w-6 h-6 hover:w-5 hover:h-5 duration-500">
+          </a>
+          <a href="https://www.instagram.com/raindrop_nigeria?igsh=aGxrNzFtY2QzZGFk" target="_blank" rel="noopener noreferrer" class="mx-2 mt-2">
+            <img src="./svg/instagram-social-media-network-communication-interaction-connection-svgrepo-com.svg" alt="" class="w-6 h-6 hover:w-5 hover:h-5 duration-500">
+          </a>
+          <a href="mailto:raindropnigeria@gmail.com" class="mx-2 mt-2">
+            <img src="./svg/gmail-svgrepo-com.svg" alt="" class="w-6 h-6 hover:w-5 hover:h-5 duration-500">
+          </a>
+          <a href="tel:+2349150697344" class="mx-2 mt-2">
+            <img src="./svg/phone-call-svgrepo-com.svg" alt="" class="w-6 h-6 hover:w-5 hover:h-5 duration-500">
+          </a>
+        </div>
+      </div>
+      <div id="faq" class="px-7">
+        <h2>
+          <a href="./faq.html" class="flex items-center"><span class="font-bold hover:mr-1 duration-300">FAQs</span> <img src="./svg/right-arrow-hand-drawn-outline-svgrepo-com.svg" alt="" class="h-4 w-4 ml-2 hover:ml-3 duration-300"></a>
+        </h2>
+      </div>
+    </div>
+    <hr class="w-full border-2 border-gray-500">
+    <div id="copyright" class="w-full flex items-center justify-center py-2">
+      &COPY; Copyright 2025 Raindrop | All Right Reserved
+    </div>
+  </div>
+</body>
+</html>
