@@ -1,3 +1,4 @@
+![Raindrop Logo](https://github.com/raindropnigeria/raindropnigeria/blob/main/raindrop-logo.jpg)
 # Raindrop Nigeria
 
 Raindrop Nigeria is the most trusted platform for accessing fresh foodstuff and reliable logistics across Nigeria.  
