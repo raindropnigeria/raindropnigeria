@@ -1,16 +1,18 @@
-## Hi there 👋
+# Raindrop Nigeria
 
-<!--
-**raindropnigeria/raindropnigeria** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Raindrop Nigeria is the most trusted platform for accessing fresh foodstuff and reliable logistics across Nigeria.  
+We are building the agricultural backbone for Africa with modern storage systems, efficient supply chains, and nationwide distribution networks.  
 
-Here are some ideas to get you started:
+## What We Do
+- Deliver fresh and bulk food items across Nigeria with speed and reliability.  
+- Provide trusted logistics and transportation for farmers, retailers, and households.  
+- Build modern agricultural storage and distribution infrastructure.  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Why Choose Us
+- Most trusted platform for foodstuff delivery in Nigeria.  
+- Reliable logistics network connecting farmers to markets.  
+- Focused on reducing food waste and ensuring affordability for everyone.  
+
+🌍 Visit our website: [https://raindropnigeria.github.io](https://raindropnigeria.github.io)  
+📧 Contact: raindropnigeria@gmail.com  
+📱 WhatsApp: +234-091-506-97344
