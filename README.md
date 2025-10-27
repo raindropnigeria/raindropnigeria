@@ -14,7 +14,7 @@ We are building the agricultural backbone for Africa with modern storage systems
 - Reliable logistics network connecting farmers to markets.  
 - Focused on reducing food waste and ensuring affordability for everyone.  
 
-🌍 Visit our website: [https://raindropnigeria.vercel.app](https://raindropnigeria.vercel.app) 
+🌍 Visit our Official website: https://raindropnigerialtd.wixsite.com/raindrop-nigeria
 Visit our Blog:
 raindrop-nigeria.blogspot.com
 
